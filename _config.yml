@@ -1,7 +1,8 @@
 title: Claude Notes
-description: Random notes
-theme: jekyll-theme-minimal
-
+description: Random notes made with the help of Claude.
+ 
+# No theme: the layout lives in _layouts/default.html
+ 
 # Lets links between .md files work on the site and on GitHub itself
 plugins:
   - jekyll-relative-links
