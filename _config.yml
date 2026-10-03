@@ -1,11 +1,27 @@
 title: Claude Notes
 description: Random notes made with the help of Claude.
- 
-# No theme: the layout lives in _layouts/default.html
- 
-# Lets links between .md files work on the site and on GitHub itself
+
+# Dated files in _posts/ get URLs like /2026-10-03-yokubi-study-plan/
+permalink: /:year-:month-:day-:title/
+
 plugins:
   - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+# Page titles come from each note's first # heading
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: true
+
+# Lets links between .md files work on the site and on GitHub itself
 relative_links:
   enabled: true
   collections: false
+
+# Use the layout in _layouts/default.html for everything
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,7 +1,14 @@
+---
+layout: default
+---
 # Claude Notes
-
+ 
 Random notes made with the help of Claude.
-
-## Japanese
-
-- [Yokubi grammar guide: 16-week study plan](2026-10-03-yokubi-study-plan.md)
+ 
+## Notes
+ 
+<ul class="notes">
+{%- for post in site.posts %}
+  <li><time>{{ post.date | date: "%-d %b %Y" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{%- endfor %}
+</ul>
