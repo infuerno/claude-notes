@@ -1,7 +1,7 @@
-# My Notes
+# Notes
 
-A collection of study plans and notes.
+Random notes made with the help of Claude.
 
 ## Japanese
 
-- [Yokubi grammar guide: 16-week study plan](japanese/yokubi-study-plan.md)
+- [Yokubi grammar guide: 16-week study plan](2026-10-03-yokubi-study-plan.md)
