@@ -1,4 +1,4 @@
-# Notes
+# Claude Notes
 
 Random notes made with the help of Claude.
 
